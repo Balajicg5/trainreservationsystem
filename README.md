@@ -89,9 +89,4 @@ This is a command-line based train reservation system written in Java. It allows
 
 2.  You should now see the main menu of the Train Reservation System in your terminal.
 
-## Future Improvements
-*   **Integrate the Trie:** Fully integrate the Trie for station name autocomplete in the user interface.
-*   **GUI:** Develop a graphical user interface (GUI) using a framework like Swing or JavaFX for a more user-friendly experience.
-*   **Web Application:** Convert this into a web application using technologies like Servlets, JSP, or a modern framework like Spring Boot.
-*   **Shortest Path:** Enhance the graph algorithm to find the shortest path between stations (e.g., using Dijkstra's algorithm) by adding weights to the edges (representing distance or travel time).
-*   **User Authentication:** Add a user authentication system to manage user accounts and booking history.
+
