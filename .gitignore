@@ -1,0 +1,25 @@
+# Compiled class files
+/bin/
+*.class
+
+# Logs
+*.log
+
+# Database files
+*.sql~
+
+# IDE and OS files
+/.idea/
+*.iml
+*.swp
+.DS_Store
+Thumbs.db
+
+# Libraries
+/lib/mysql-connector-j-*.jar
+
+# Environment files
+.env
+
+# Misc
+*.tmp
