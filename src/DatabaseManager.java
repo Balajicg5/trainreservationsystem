@@ -4,11 +4,13 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
+import io.github.cdimascio.dotenv.Dotenv;
 
 public class DatabaseManager {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/train_reservation_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
-    private static final String DB_USER = "root"; 
-    private static final String DB_PASSWORD = "cg5@";
+    private static final Dotenv dotenv = Dotenv.load();
+    private static final String DB_USER = dotenv.get("DB_USER");
+    private static final String DB_PASSWORD = dotenv.get("DB_PASSWORD");
 
     public static Connection getConnection() throws SQLException {
         try {
